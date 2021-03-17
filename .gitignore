@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.coverage
+
+cache/
+*.log
+
+# Flask stuff
+instance/*
+!instance/.gitkeep
+
+# Environments
+.env.sh
+venv
+.venv
+.env
+.ipynb_checkpoints/
+
+# IDE
+.vscode
+.idea/
+
+# Distribution / packaging
+*.egg-info
+build/
+
+# Unit test / coverage reports
+.pytest_cache/
+htmlcov/
+
+# log
+!var/logs/.gitkeep
+var/logs/*
+
+# Sphinx documentation
+docs/_build/
+docs/source/autodoc/
+
+# history folder
+.history/
+.DS_Store
